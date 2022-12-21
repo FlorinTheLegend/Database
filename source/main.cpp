@@ -1,10 +1,11 @@
 #include <iostream>
 #include <fstream>
-#include "functii.h"
-#include "functii.cpp"
+#include "..//source//functii.h"
+#include "..//source//functii.cpp"
+#include <conio.h>
 #include <unistd.h>
 using namespace std;
-//modify////
+
 
 int main()
 {
@@ -36,7 +37,7 @@ bool logat=false;
   
     
     cout<<"alege un numar\n";
-    cin>>alegere;
+    alegere=getch();
         
 
         switch (alegere)
@@ -155,7 +156,7 @@ bool logat=false;
                  cout<<"introdu' un numar\n";
                  break;
         }
-        //ask_for_enter();
+        ask_for_enter();
         system("cls");
        
 
