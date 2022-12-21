@@ -4,7 +4,7 @@
 #include "functii.cpp"
 #include <unistd.h>
 using namespace std;
-//modify
+//modify////
 
 int main()
 {
