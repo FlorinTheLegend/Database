@@ -6,7 +6,7 @@
 #include <unistd.h>
 using namespace std;
 
-
+// mainnnnn
 int main()
 {
 int peopleindatabase=0;
